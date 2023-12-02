@@ -23,7 +23,7 @@ function BarChart(){
         },
       };
       
-      const labels = ['Верификувани', 'Во прогрес', 'Неверификувани'];
+      const labels = ['Завршени', 'Во прогрес', 'Откажани'];
       
       const data = {
         labels,
@@ -37,7 +37,7 @@ function BarChart(){
       };
 
     return(
-      <TitleCard title={"Социјален статус"}>
+      <TitleCard title={"Интеграциски процеси"}>
             <Bar options={options} data={data} />
       </TitleCard>
 

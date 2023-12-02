@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-import { setPageTitle } from '../../features/common/headerSlice'
 import ProfileSettings from '../../features/settings/profilesettings'
+import { setPageTitle } from '../../features/common/headerSlice'
 
 function InternalPage(){
     const dispatch = useDispatch()
@@ -13,9 +13,7 @@ function InternalPage(){
 
 
     return(
-        <>
         <ProfileSettings />
-        </>
     )
 }
 

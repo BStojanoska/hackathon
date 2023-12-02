@@ -20,6 +20,8 @@ import KeyIcon from '@heroicons/react/24/outline/KeyIcon'
 import DocumentDuplicateIcon from '@heroicons/react/24/outline/DocumentDuplicateIcon'
 import ListBulletIcon from '@heroicons/react/24/outline/ListBulletIcon'
 import UserGroupIcon from '@heroicons/react/24/outline/UserGroupIcon'
+import BriefcaseIcon from '@heroicons/react/24/outline/BriefcaseIcon'
+import HeartIcon from '@heroicons/react/24/outline/HeartIcon'
 
 const iconClasses = `h-6 w-6`
 const submenuIconClasses = `h-5 w-5`
@@ -40,6 +42,16 @@ const routes = [
     path: '/app/settings-profile', //url
     icon: <UserGroupIcon className={submenuIconClasses}/>, // icon component
     name: 'Фамилии', // name that appear in Sidebar
+  },
+  {
+    path: '/app/tasks', //url
+    icon: <BriefcaseIcon className={submenuIconClasses}/>, // icon component
+    name: 'Задачи', // name that appear in Sidebar
+  },
+  {
+    path: '/app/volunteers', //url
+    icon: <HeartIcon className={submenuIconClasses}/>, // icon component
+    name: 'Волонтери', // name that appear in Sidebar
   },
 ]
 
