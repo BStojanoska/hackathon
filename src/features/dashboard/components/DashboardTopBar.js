@@ -57,9 +57,6 @@ function DashboardTopBar({updateDashboardPeriod}){
             /> */}
             </div>
             <div className="text-right ">
-                <button className="btn btn-ghost btn-sm normal-case"><ArrowPathIcon className="w-4 mr-2"/>Refresh Data</button>
-                <button className="btn btn-ghost btn-sm normal-case  ml-2"><ShareIcon className="w-4 mr-2"/>Share</button>
-
                 <div className="dropdown dropdown-bottom dropdown-end  ml-2">
                     <label tabIndex={0} className="btn btn-ghost btn-sm normal-case btn-square "><EllipsisVerticalIcon className="w-5"/></label>
                     <ul tabIndex={0} className="dropdown-content menu menu-compact  p-2 shadow bg-base-100 rounded-box w-52">
